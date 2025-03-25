@@ -29,12 +29,43 @@ body {
   padding: 0;
   margin: 0;
 }
+div{
+  background-color:darkgoldenrod;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  color: crimson;
+}
+nav{
+  background-color: blue;
+  overflow: hidden;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding:  0;
+}
+ nav ul li{
+  float: left;
 
-a {
-  color: inherit;
+ }
+nav ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
+a:hover{
+  background-color: cadetblue; 
+
+  color: red;
+}
+footer{
+  background-color:tomato;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
